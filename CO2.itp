@@ -1,0 +1,24 @@
+[ moleculetype ]
+; Name   nrexcl
+CO2      3
+
+[ atoms ]
+;   nr       type  resnr residue  atom   cgnr     charge       mass  typeB    chargeB
+     1         OZ      1    CO2      O      1   -0.33225      16.000000
+     2         CZ      1    CO2      C      1    0.6645       12.000000
+     3         OZ      1    CO2      O      1   -0.33225      16.000000
+
+[ bonds ]
+;  ai    aj funct  r            k
+; k from antechamber
+    2     3     1  0.1161     6.5019e+05
+    1     2     1  0.1161     6.5019e+05
+ 
+[ pairs ]
+;  ai    aj funct
+
+[ angles ]
+;  ai    aj    ak funct  theta       cth
+; cth from antechamber
+    1     2     3     1  1.8000e+02  5.7990e+02
+
