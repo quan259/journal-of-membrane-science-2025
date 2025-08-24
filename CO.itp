@@ -1,0 +1,24 @@
+[ moleculetype ]
+; Name   nrexcl
+CO     3
+[ atoms ]
+;  nr  type  resnr  resid  atom  cgnr  charge    mass
+    1 OEOpt    1    CO      O    1    0.107  15.9994
+    2     C    1    CO      C    2   -0.107  12.0110
+; total charge of the molecule:   0.000
+[ bonds ]
+;  ai   aj  funct   c0         c1
+    1    2    2   0.114   4.6168e+07
+[ pairs ]
+;  ai   aj  funct  ;  all 1-4 pairs but the ones excluded in GROMOS itp
+[ angles ]
+;  ai   aj   ak  funct   angle     fc
+[ dihedrals ]
+; GROMOS improper dihedrals
+;  ai   aj   ak   al  funct   angle     fc
+[ dihedrals ]
+;  ai   aj   ak   al  funct    ph0      cp     mult
+[ exclusions ]
+;  ai   aj  funct  ;  GROMOS 1-4 exclusions
+
+
