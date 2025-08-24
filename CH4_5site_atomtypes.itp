@@ -1,0 +1,4 @@
+[ atomtypes ]
+;name  bond_type           mass    charge   ptype          sigma      epsilon 
+    HC            HC      1.0000    0.116      A            0.265      0.0657
+    CT            CT      12.0000  -0.464      A            0.340      0.4577
